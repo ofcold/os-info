@@ -13,7 +13,7 @@
             "name": "Olivia Fu",
             "email": "olivia.fu@anomaly.ink",
             "homepage": "https://olivia.ink"
-        },
+        }
     ],
     "require": {
         "php": "^7.1",

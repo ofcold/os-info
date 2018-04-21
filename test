@@ -1,0 +1,12 @@
+#!/usr/bin/env php
+<?php
+
+//	Register The Composer Auto Loader
+require './vendor/autoload.php';
+
+$info = new Olivia\OsInfo\OSInfo(
+	new Linfo\Linfo
+);
+
+// Cpu
+echo $info->getCpu();

@@ -91,7 +91,7 @@ class OSInfo
 	{
 		return (
 			new mysqli($host, $username, $password)
-		)->server_info,
+		)->server_info;
 	}
 
 	/**
